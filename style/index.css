@@ -152,7 +152,7 @@ div#listOfGalleries {
 }
 
 #galleryInfo ul li {
-    padding: 8px 0px;
+    padding: 8px 8px;
 }
 
 #galleryInfo ul li:first-child {
