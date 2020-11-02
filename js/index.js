@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
             let listItem = document.createElement("li");
             let link = document.createElement("a");
+            link.setAttribute("target", "_blank");
             link.setAttribute("href", `${g.GalleryWebSite}`);
             link.textContent = "Gallery Web Site";
             listItem.appendChild(link);
