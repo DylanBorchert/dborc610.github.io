@@ -153,6 +153,7 @@ div#listOfGalleries {
 
 #galleryInfo ul li {
     padding: 8px 8px;
+    padding-top: 6px;
 }
 
 #galleryInfo ul li:first-child {
