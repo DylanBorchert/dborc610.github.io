@@ -209,6 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let MuseumLink = paintViewClone.querySelector("#MuseumLink");
         MuseumLink.setAttribute("href", `${foundPainting.MuseumLink}`);
         MuseumLink.textContent = "Gallery Web Site";
+        MuseumLink.setAttribute("target", "_blank");
         let returnButton = paintViewClone.querySelector("#return");
         returnButton.textContent = "return";
 
